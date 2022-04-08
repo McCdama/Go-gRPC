@@ -8,8 +8,8 @@ import (
 	"log"
 	"net"
 
+	pb "github.com/McCdama/Go-gRPC/hello"
 	"google.golang.org/grpc"
-	pb "google.golang.org/grpc/examples/helloworld/helloworld"
 )
 
 var (
